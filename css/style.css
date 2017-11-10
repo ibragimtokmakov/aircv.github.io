@@ -2760,7 +2760,8 @@ form.request-form > * {
 }
 
 .result .sum {
-    font-family: "Arno Pro";
+    font-family: "Arial";
+    font-style: italic;
     font-weight: 600;
     font-size: 46px;
     line-height: 46px;
