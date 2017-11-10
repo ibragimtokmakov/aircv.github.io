@@ -2760,7 +2760,8 @@ form.request-form > * {
 }
 
 .result .sum {
-    font-family: "Arno Pro";
+    font-family: "Arial";
+    font-style: italic;
     font-weight: 600;
     font-size: 46px;
     line-height: 46px;
@@ -3260,8 +3261,8 @@ footer a {
 
 .footer-contacts .number {
     font-weight: lighter;
-    font-size: 18px;
-    color: #d7926a;
+    font-size: 24px;
+    color: #ffff;
     margin-top: 23px;
 }
 
@@ -3307,7 +3308,8 @@ footer a {
     border: none;
     cursor: pointer;
     text-transform: uppercase;
-    background: url(../img/btn.png) no-repeat left center;
+    /*background: url(../img/btn.png) no-repeat left center;*/
+    background: black;
     background-size: contain;
     /*box-shadow: 1px 1px 1px 0 rgba(13, 13, 13, 0.14);*/
     -webkit-transition: background-image 0.5s, color 0.5s, -webkit-filter 0.5s;
@@ -3315,7 +3317,9 @@ footer a {
     transition: background-image 0.5s, color 0.5s, filter 0.5s;
     transition: background-image 0.5s, color 0.5s, filter 0.5s, -webkit-filter 0.5s;
 }
-
+.btn:hover {
+    background:green;
+}
 .btn:focus {
     outline: none;
 }
@@ -3326,11 +3330,11 @@ footer a {
 }
 
 .btn.btn-transparent {
-    background-image: url(../img/btn-transparent.png);
-    color: #d9b9a1;
+    /*background-image: url(../img/btn-transparent.png);*/
+    color: white;
 }
 
-.btn:hover,
+/*.btn:hover,
 .btn.active {
     background-image: url(../img/btn-hover.png);
 }
@@ -3339,7 +3343,7 @@ footer a {
 .btn.btn-transparent.active {
     background-image: url(../img/btn-transparent-hover.png);
     color: #f9ebe1;
-}
+}*/
 
 .btn-add-cart {
     width: 100%;
@@ -3506,4 +3510,12 @@ footer a {
 .xs-only,
 .xxs-only {
     display: none !important;
+}
+.blog-title{
+    font-style:italic;
+    font-weight:bold;
+
+}
+.blog-container .blog-title{
+    text-align: center;
 }
